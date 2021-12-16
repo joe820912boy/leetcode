@@ -15,7 +15,7 @@ int reverse(int x){
 }
 
 
-
+or
 
 int reverse(int x){
     long long ans = 0;
