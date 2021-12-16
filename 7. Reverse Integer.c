@@ -13,3 +13,15 @@ int reverse(int x){
     }
     return (int) ans;
 }
+
+
+
+
+int reverse(int x){
+    long long ans = 0;
+    while(x!=0){
+        ans = x % 10 + ans * 10;
+        x = x / 10;
+    }
+    return (ans>INT_MAX || ans<INT_MIN) ? 0 : ans;
+}
